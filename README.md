@@ -1,13 +1,13 @@
-# Marcin Antosiewicz - moja strona
+# Marcin Antosiewicz - my side
 
-![Hej](https://github.com/marcinantosiewicz8/homepage/blob/main/images/Hello.jpg)
+![Hello](https://github.com/marcinantosiewicz8/homepage/blob/main/images/Hello.jpg)
 
 ## Demo
 https://marcinantosiewicz8.github.io/homepage/
 
-### Opis:
+### Description:
 
-- Nauka front-end developer https://youcode.pl/
+- Front-end developer science https://youcode.pl/
 
 
      
