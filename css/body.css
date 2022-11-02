@@ -1,0 +1,13 @@
+.body {
+    background-color: rgb(249, 235, 217);
+    margin: 0px;
+    font-size: 20px;
+}
+
+.body__header{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+}
