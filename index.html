@@ -10,12 +10,13 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/body.css" />
   <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="css/header.css" />
   <script defer src="js/script.js"></script>
   <title>Kantor</title>
 </head>
 <body class="body">
     <header>
-        <h1 class="body__header">Kantor</h1>
+        <h1 class="header__title">Kantor</h1>
     </header>
     <main>
         <form class="form js-form" action="https://MojeProjekty.pl/" method="post">
@@ -29,13 +30,15 @@
                 <input class="form__input js-sumPl" type="number" name="sumPl" id="sumPl" readonly>
                 <label class="form__label" for="sumPl">Wybierz Walute:</label>
                 <label for="Euro" class="form__label--radio">Euro</label>
-                <input class="form__input-radio js-radio-1" type="radio" name="currency" id="Euro">
+                <input class="form__input--radio js-radio-1" type="radio" name="currency" id="Euro">
                 <label for="Dolar" class="form__label--radio">Dolar</label>
-                <input class="form__input-radio js-radio-2" type="radio" name="currency" id="Dolar">
+                <input class="form__input--radio js-radio-2" type="radio" name="currency" id="Dolar">
                 <label for="Frank" class="form__label--radio">Frank</label>
-                <input class="form__input-radio js-radio-3" type="radio" name="currency" id="Frank">
+                <input class="form__input--radio js-radio-3" type="radio" name="currency" id="Frank">
+                <div class="form__flexButton">
                 <button class="form__button js-button">Oblicz</button>
                 <button class="form__button" type="reset">Reset</button>
+                </div>
             </fieldset>
         </form>
     </main>

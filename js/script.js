@@ -10,9 +10,8 @@ let radioFrank = document.querySelector(".js-radio-3");
 let change = document.querySelector(".js-change");
 
 form.addEventListener("input", () => {
-    radioEuro.checked === true ? change.innerText = "EU" : "";
-    radioDolar.checked === true ? change.innerText = "USD" : "";
-    radioFrank.checked === true ? change.innerText = "CHF" : "";
+    
+    change.innerText = radioEuro.checked ? "EUR" : radioDolar.checked ? "USD" : "CHF";
     
 });
 
